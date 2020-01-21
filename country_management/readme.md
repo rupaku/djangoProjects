@@ -18,6 +18,7 @@ City          | GET           |  http://127.0.0.1:8000/api/city/        |   None
 City          | PUT           |  http://127.0.0.1:8000/api/city/2/      |    refer point4      |
 City          | DELETE        |  http://127.0.0.1:8000/api/city/2/      |   None               |
 City          | GET           |  http://127.0.0.1:8000/api/search/      |   None               |
+
 ###point1
 {
 "country_name": "Australia",
