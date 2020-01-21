@@ -1,0 +1,14 @@
+{% block content %}
+  <form method="get">
+    {{ filter.form.as_p }}
+      <input id="country_code" type="text" name="country_code" value="{{ country.country_code }}">
+      <input id="city_code" type="text" name="city_code" value="{{ city.city_code }}">
+
+    <button type="submit">Search</button>
+  </form>
+  <ul>
+  {% for country in filter.qs %}
+    <li>{{ country.country_name }} - {{ country.short_name }}</li>
+  {% endfor %}
+  </ul>
+{% endblock %}
