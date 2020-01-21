@@ -1,8 +1,7 @@
 ## Country Management
 
 ### Description
-##### Country and city management API to create,update and delete 
-##### country and city according to details
+Country and city management API to create,update and delete country and city according to details
 
 ### Endpoints
 
