@@ -1,46 +1,52 @@
-##Country Management
+## Country Management
 
 ### Description
-##### Country and city managemengt API to create,update and delete 
+##### Country and city management API to create,update and delete 
 ##### country and city according to details
 
-#Endpoints
-
+# Endpoints
 
 Name          | Method        |               Endpoints                 |      Body            |
 ------------- | ------------- | --------------------------------------  | -------------------- |
-Country       | POST          |  http://127.0.0.1:8000/api/country/     |    refer point1      |       
+Country       | POST          |  http://127.0.0.1:8000/api/country/     |   refer dataset 1    |       
 Country       | GET           |  http://127.0.0.1:8000/api/country/     |   None               |
-Country       | PUT           |  http://127.0.0.1:8000/api/country/2/   |    refer point2      |
+Country       | PUT           |  http://127.0.0.1:8000/api/country/2/   |   refer dataset 2    |
 Country       | DELETE        |  http://127.0.0.1:8000/api/country/2/   |   None               |
-City          | POST          |  http://127.0.0.1:8000/api/city/        |    refer point3      |
+City          | POST          |  http://127.0.0.1:8000/api/city/        |   refer dataset 3    |
 City          | GET           |  http://127.0.0.1:8000/api/city/        |   None               |
-City          | PUT           |  http://127.0.0.1:8000/api/city/2/      |    refer point4      |
+City          | PUT           |  http://127.0.0.1:8000/api/city/2/      |   refer dataset 4    |
 City          | DELETE        |  http://127.0.0.1:8000/api/city/2/      |   None               |
 City          | GET           |  http://127.0.0.1:8000/api/search/      |   None               |
 
-###point1
-{
-"country_name": "Australia",
-"short_name": "Aus",
-"country_code": 41
-}
+### Dataset 1:
+    {
+    "country_name": "Australia",
+    "short_name": "Aus",
+    "country_code": 41
+    }
 
-###point2
-{
-"country_name": "Australia",
-"short_name": "Aust",
-"country_code": 41
-}
+### Dataset 2:
+    {
+    "country_name": "Australia",
+    "short_name": "Aust",
+    "country_code": 41
+    }
 
-###point3
-{
-"country": 2,
-"city_name": "sydney",
-"city_code": 411
-}
+### Dataset 3:
+    {
+    "country": 2,
+    "city_name": "sydney",
+    "city_code": 411
+    }
 
-####Database
+### Dataset 4:
+    {
+    "country": 2,
+    "city_name": "canberra",
+    "city_code": 411
+    }
+
+### Database:
 <!-- Please change credentials accordingly -->
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'restfulapi',
