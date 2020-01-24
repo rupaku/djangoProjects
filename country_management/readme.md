@@ -1,8 +1,19 @@
 ## Country Management
 
 ### Description
-##### Country and city management API to create,update and delete 
-##### country and city according to details
+Country and city management API to create,update and delete country and city according to details
+
+### Requirement
+django-admin startproject country_management <br />
+cd country_management <br />
+python manage.py startapp crud_api <br />
+pip install djangorestframework <br />
+install postgresql on your system <br />
+pip install psycopg2 <br />
+pip install django-filter <br />
+python manage.py makemigrations <br />
+python manage.py migrate <br />
+python manage.py runserver
 
 ### Endpoints
 
