@@ -54,7 +54,7 @@
 #### select micro instance
 #### configure instance
 #### configure security group -> SSH  and HTTP
-#### ssh ubuntu@<dns server>
+#### ssh ubuntu@dns_server_name
 #### run below command on server
 #### curl -sL https://raw.githubusercontent.com/rupaku/djangoProjects/master/profiles-rest-api/deploy/setup.sh | sudo bash -
 #### change in allowed hosts and push and run update.sh on dns server 
